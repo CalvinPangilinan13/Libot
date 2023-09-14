@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tara Libot Tayo!_Contact us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="img/core-img/Libot Tayo!.png">
+  <link href="css/contactus.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="header" id="header">
+    <img src="img/core-img/LOGO.png" alt="">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <div class="header-right">
+      <a href="main.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a class="active" href="contactus.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a>
+      <a href="abooutus.html"><i class="fa fa-fw fa-info"></i> About us </a>
+      <a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop </a>
+      <a href="gallery.html"><i class="fa fa-fw fa-camera"></i> Gallery </a>
+      <a href="blog.html"><i class="fa fa-fw fa-heart"></i> Blog </a>
+      <a href="login.html"><i class="fa fa-fw fa-user"></i>Admin</a>
+    </div>
+  </div>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector(".header");
+      if (window.pageYOffset > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    });
+  </script>
+
+  <div class="icon-bar">
+    <a href="https://www.facebook.com/calvinpangilinan13" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fab fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/channel/UCWxb5i2CqpDgKgG485fGt1A" class="youtube"><i
+        class="fab fa-youtube"></i></a>
+  </div>
+  <h1>Reach us here . .</h1>
+  <div class="map-container">
+    <iframe width="80%" height="500px" frameborder="0"
+      src="https://www.bing.com/maps/embed?h=500&w=800&cp=14.866466021356459~120.99988190608178&lvl=15.22&typ=s&sty=h&src=SHELL&FORM=MBEDV8"
+      scrolling="yes">
+    </iframe>
+  </div>
+  </div>
+  </div>
+  <address>
+    <p>KM38 Green Valley St. Pulong Buhangin Santa Maria Bulacan</p>
+    <p>Email: calvinpangilinan13@gmail.com</p>
+    <p>Email: shemayhipolito@gmail.com</p>
+    <p>Phone: 09356838360</p>
+
+  </address>
+
+  <div class="contact-form">
+    <section class="contact-container">
+      <div class="contact1">
+        <form action="https://formspree.io/f/meqbknyz" method="POST">
+          <h2>Get in Touch</h2>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Input your name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+          <label for="Phone number">Phone no.:</label>
+          <input type="text" id="phone" name="subject" placeholder="Input your phone number" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" name="message" placeholder="How we can help you?" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <img src="img/core-img/LOGO.png" alt="">
+        <div class="footer-social">
+          <a href="https://www.facebook.com/calvinpangilinan13" class="social-icon"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/clvnpnglnn/" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p class="footer-text">© 2023 <a href="https://www.facebook.com/calvinpangilinan13">Calvin Pangilinan</a>. All
+          rights reserved.</p>
+      </div>
+    </footer>
+</body>
+
+</html>

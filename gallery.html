@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tara Libot Tayo!_Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/core-img/Libot Tayo!.png">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <img src="img/core-img/LOGO.png" alt="">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <div class="header-right">
+            <a href="main.html"> <i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="contactus.html"> <i class="fa fa-fw fa-envelope"></i>Contact us</a>
+            <a href="abooutus.html"> <i class="fa fa-fw fa-info "></i> About us</a>
+            <a href="shop.html"> <i class="fa fa-fw fa-shopping-cart"></i>Shop</a>
+            <a class="hactive" href="gallery.html"><i class="fa fa-fw fa-camera"></i>Gallery</a>
+            <a href="blog.html"><i class="fa fa-fw fa-heart"></i>Blog</a>
+            <a href="login.html"><i class="fa fa-fw fa-user"></i>Admin</a>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector(".header");
+            if (window.pageYOffset > 0) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    </script>
+    <section class="border-bottom">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/banner-img/banner-bc.jpg" style="width:100%" height="800vh">
+            <div class="text">This is our gallery.<p>Take a Look!&nbsp;<br></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/banner-img/DIGOS 1.jpg" style="width:100%" height="800vh">
+            <div class="text">This is our gallery.<p></p>
+                <p>Take a Look! &nbsp;<br></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/banner-img/banner-duo.jpg" style="width:100%" height="800vh">
+            <div class="text">This is our gallery.<p>Take a Look!&nbsp;<br></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="wave wave1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#273036" fill-opacity="0.9"
+                    d="M0,96L17.1,90.7C34.3,85,69,75,103,112C137.1,149,171,235,206,224C240,213,274,107,309,80C342.9,53,377,107,411,138.7C445.7,171,480,181,514,192C548.6,203,583,213,617,202.7C651.4,192,686,160,720,133.3C754.3,107,789,85,823,112C857.1,139,891,213,926,218.7C960,224,994,160,1029,138.7C1062.9,117,1097,139,1131,122.7C1165.7,107,1200,53,1234,58.7C1268.6,64,1303,128,1337,160C1371.4,192,1406,192,1423,192L1440,192L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
+                </path>
+                <path fill="#273036" fill-opacity="0.9"
+                    d="M0,256L12.6,234.7C25.3,213,51,171,76,138.7C101.1,107,126,85,152,90.7C176.8,96,202,128,227,165.3C252.6,203,278,245,303,229.3C328.4,213,354,139,379,101.3C404.2,64,429,64,455,69.3C480,75,505,85,531,106.7C555.8,128,581,160,606,149.3C631.6,139,657,85,682,58.7C707.4,32,733,32,758,32C783.2,32,808,32,834,64C858.9,96,884,160,909,165.3C934.7,171,960,117,985,106.7C1010.5,96,1036,128,1061,122.7C1086.3,117,1112,75,1137,48C1162.1,21,1187,11,1213,48C1237.9,85,1263,171,1288,176C1313.7,181,1339,107,1364,69.3C1389.5,32,1415,32,1427,32L1440,32L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (slideIndex < 1) {
+                slideIndex = slides.length;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+
+        function plusSlides(n) {
+            slideIndex += n;
+            showSlides();
+        }
+    </script>
+
+    <h2>Tara Libot Tayo! Gallery</h2>
+    <div id="myBtnContainer">
+        <button class="btn" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('beaches')"> Beaches</button>
+        <button class="btn" onclick="filterSelection('shop')"> Coffee Shop</button>
+        <button class="btn" onclick="filterSelection('historical')"> Historical/Cultural</button>
+        <button class="btn" onclick="filterSelection('nature')"> Adventure/Nature</button>
+
+    </div>
+    <!--  Gallery Grid -->
+    <div class="row">
+        <div class="column nature" >
+            <div class="content" href="main.html">
+                <img class="" src="img/reviews-image/bakas-content.jpg" alt="nature" style="width:100%" height="80%">
+                <h4>Bakas Resort</h4>
+                <p>Address: Matictic, Norzagaray, Bulacan</p>
+            </div>
+        </div>
+        <div class="column historical">
+            <div class="content">
+                <img class="" src="img/gallery-img/gapan.jpg" alt="historical" style="width:100%" height="80%">
+                <h4>Tagpuan Sa Lumang Gapan</h4>
+                <p>Address: Gapan, Nueva Ecija</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img class="" src="img/gallery-img/phillipine arena.jpg" alt="nature" style="width:100%" height="80%">
+                <h4>Philippine Arena</h4>
+                <p>Address: 3018 Bocaue, Bulacan Central Luzon</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img class="" src="img/gallery-img/burnham.jpg" alt="nature" style="width:100%" height="80%">
+                <h4>Burnham Park</h4>
+                <p>Address: Abad Santos Dr 2600 Baguio City Cordillera Administrative Region</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img src="img/reviews-image/digos-content.jpg" alt="Lights" style="width:100%" height="80%">
+                <h4>Digos Hills</h4>
+                <p>Address: Dona Remedios Trinidad, Angat Garay</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img src="img/reviews-image/cjy-content.jpg" alt="Nature" style="width:100%" height="80%">
+                <h4>Camp Jhon Hay</h4>
+                <p>Address: Loakan Road, Baguio City, Philippines </p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img src="img/gallery-img/minesview.jpg" alt="Nature" style="width:100%" height="80%">
+                <h4>Mines View Park</h4>
+                <p>Address: Loakan Road, Baguio City, Philippines</p>
+            </div>
+        </div>
+
+        <div class="column beaches">
+            <div class="content">
+                <img src="img/reviews-image/anda-content.jpg" alt="beaches" style="width:100%" height="80%">
+                <h4>Tondol Beach</h4>
+                <p>White Sand Beach Pangasinan</p>
+            </div>
+        </div>
+        <div class="column beaches">
+            <div class="content">
+                <img src="img/reviews-image/dasol-content.jpg" alt="beaches" style="width:100%" height="80%">
+                <h4>Dasol Beach</h4>
+                <p>White Sand Beach Pangasinan</p>
+            </div>
+        </div>
+        <div class="column shop">
+            <div class="content">
+                <img src="img/gallery-img/Pugpog Bikers.jpg" alt="shop" style="width:100%" height="80%">
+                <h4>Pugpog Bikers Highlands</h4>
+                <p>Address: Pugpog Road, Sta. Cruz, Angat, Bulacan</p>
+            </div>
+        </div>
+        <div class="column shop">
+            <div class="content">
+                <img src="img/gallery-img/Coffee Pampanga.jpg" alt="shop" style="width:100%" height="80%">
+                <h4>Cafe Dia</h4>
+                <p>Address: Friendship Highway 2009 Angeles City Central Luzon Region </p>
+            </div>
+        </div>
+        <!-- END GRID -->
+    </div>
+    <script>
+        filterSelection("all") 
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        var previousBtn = btnContainer.querySelector(".previous");
+
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.querySelector(".active");
+                if (current) {
+                    current.classList.remove("active");
+                }
+                this.classList.add("active");
+
+                if (this === previousBtn) {
+                    this.classList.add("previous-active");
+                } else {
+                    previousBtn.classList.remove("previous-active");
+                }
+            });
+        }
+    </script>
+
+    <img src="img/core-img/up-arrow.png" onclick="topFunction()" class="myBtn" id="myBtn" title="Go to top" alt=""
+        width="70px" height="70px">
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <footer class="footer">
+        <div class="footer-content">
+          <img src="img/core-img/LOGO.png" alt="">
+          <div class="footer-social">
+            <a href="https://www.facebook.com/calvinpangilinan13" class="social-icon"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/clvnpnglnn/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+          </div>
+          <p class="footer-text">© 2023 <a href="https://www.facebook.com/calvinpangilinan13">Calvin Pangilinan</a>. All
+            rights reserved.</p>
+        </div>
+      </footer>
+</body>
+
+</html>

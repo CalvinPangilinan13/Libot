@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Tara Libot Tayo!_Log in</title>
+    <link rel="icon" href="img/core-img/Libot Tayo!.png">
+</head>
+<body>
+    <form action="" method="post">
+        <div class="imgcontainer">
+          <img src="img/core-img/LOGO.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" id="username" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" id="password" required>
+      
+          <button type="button" onclick="validate()">Login</button>         
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">       
+        <button type="button" class="cancelbtn" onclick="closeWindow()">Back to Home Page</button>        
+          <span class="psw">Forgot<a href="#">password?</a></span>
+        </div>
+      </form>
+      <script type="text/javascript">
+       function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            if (username === "admin" && password === "admin") {
+                alert("Validation succeeded");
+                window.location.href = "#";
+            } else {
+                alert("Validation failed");
+                window.location.href = "login.html";
+            }
+        }
+        function closeWindow() {
+          window.location.href = "main.html";
+        }
+      </script>
+</body>
+</html>
