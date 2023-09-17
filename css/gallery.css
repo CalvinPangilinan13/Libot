@@ -66,7 +66,7 @@ body {
     float: right;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
 
     .header-right {
         display: none;
@@ -98,7 +98,7 @@ body {
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
 
     #menu-toggle,
     .menu-icon {
@@ -120,7 +120,7 @@ body {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .border-bottom {
         margin-top: 40%;
         width: 100%;
@@ -183,7 +183,7 @@ body {
     font-family: Sofia;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     text {
         margin-top: 40%;
     }
@@ -215,7 +215,7 @@ body {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .border-bottom .wave {
         position: absolute;
         bottom: 0;
@@ -326,7 +326,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .column {
         flex-direction: column;
         align-items: center;
