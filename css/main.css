@@ -175,7 +175,7 @@
 
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 800px) {
     .border-bottom {
       margin-top: 40%;
       width: 100%;
@@ -238,7 +238,7 @@
     font-family: Sofia;
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 800px) {
     text {
       margin-top: 40%;
     }
@@ -270,7 +270,7 @@
 
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 800px) {
     .border-bottom .wave {
       position: absolute;
       bottom: 0;
