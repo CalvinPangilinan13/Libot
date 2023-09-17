@@ -67,7 +67,7 @@
     float: right;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
 
     .header-right {
       display: none;
@@ -100,7 +100,7 @@
     }
   }
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 750px) {
 
     #menu-toggle,
     .menu-icon {
@@ -175,12 +175,12 @@
 
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
     .border-bottom {
       margin-top: 40%;
       width: 100%;
       height: 700px;
-      border-bottom: solid 400px #273036;
+      border-bottom: solid 100px #273036;
     }
   }
 
@@ -238,7 +238,7 @@
     font-family: Sofia;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
     text {
       margin-top: 40%;
     }
@@ -270,26 +270,24 @@
 
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
     .border-bottom .wave {
       position: absolute;
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 700px
+      height: 600px;
       background-size: 300px 100px;
-      top: 90%;
-      opacity: 1;
-      
+      top: 85%;
     }
   }
 
   .border-bottom .wave.wave1 {
     animation: animate 30s linear infinite;
     z-index: 800;
-    opacity: 0.9;
-    height: 400px;
+    opacity: 1;
     animation-delay: 0s;
+    bottom: 8px;
   }
 
   .contents {
@@ -468,7 +466,7 @@
     width: 24.99999%;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
